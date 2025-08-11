@@ -8,7 +8,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\ContactController;
 
-Route::get('biagio995.github.io/bogarticoli/', [HomeController::class, 'index'])->name('home');
+Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/chi-siamo', [HomeController::class, 'aboutUs'])->name('chi-siamo');
 Route::get('/contatti', [HomeController::class, 'contacts'])->name('contatti');
 
