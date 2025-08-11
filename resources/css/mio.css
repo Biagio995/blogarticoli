@@ -1,0 +1,21 @@
+.main-container {
+    min-height: 60vh;
+    background-image: url('https://picsum.photos/1920/1080?random=1') no-repeat center center cover;
+}
+
+.backdrop {
+    position: absolute;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.485);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-btn {
+    z-index: 25;
+}
